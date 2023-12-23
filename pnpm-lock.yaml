@@ -13,7 +13,7 @@ dependencies:
     version: 5.2.20(@types/node@18.18.9)(typescript@5.2.2)
   '@oclif/plugin-plugins':
     specifier: ^4
-    version: 4.1.5(typescript@5.2.2)
+    version: 4.1.11(typescript@5.2.2)
 
 devDependencies:
   '@oclif/prettier-config':
@@ -513,19 +513,19 @@ packages:
       - typescript
     dev: true
 
-  /@oclif/plugin-plugins@4.1.5(typescript@5.2.2):
-    resolution: {integrity: sha512-/f+fTZfW4I7QCeNkD744AmLAkzEcAYbheC2lUJ5mWHGCf16ReXm+sN0oDyonzF/KeXbhOq6yKR5cr3LLVYFyvw==}
+  /@oclif/plugin-plugins@4.1.11(typescript@5.2.2):
+    resolution: {integrity: sha512-YjyHl7dIv7UFSm+9q2/0BBwnOzYJxqtvt+PvvA/F03IqdXsSaF0KdXj9vbH4fSBGv4h4pzclnYq358ti5RdmRg==}
     engines: {node: '>=18.0.0'}
     dependencies:
       '@oclif/core': 3.10.8(typescript@5.2.2)
       chalk: 5.3.0
       debug: 4.3.4(supports-color@8.1.1)
-      npm: 9.9.1
+      npm: 10.2.5
       npm-run-path: 4.0.1
       semver: 7.5.4
       shelljs: 0.8.5
       validate-npm-package-name: 5.0.0
-      yarn: 1.22.19
+      yarn: 1.22.21
     transitivePeerDependencies:
       - supports-color
       - typescript
@@ -4232,9 +4232,9 @@ packages:
     dependencies:
       path-key: 3.1.1
 
-  /npm@9.9.1:
-    resolution: {integrity: sha512-D3YZ1ZTxPGDHLLiFU9q3sVrPfYnn6BaJ1hogm3vdWi8oOmHGtTlPUPXAM0iG22UT0JRkBnMDOh6oUhpbEYgg2A==}
-    engines: {node: ^14.17.0 || ^16.13.0 || >=18.0.0}
+  /npm@10.2.5:
+    resolution: {integrity: sha512-lXdZ7titEN8CH5YJk9C/aYRU9JeDxQ4d8rwIIDsvH3SMjLjHTukB2CFstMiB30zXs4vCrPN2WH6cDq1yHBeJAw==}
+    engines: {node: ^18.17.0 || >=20.5.0}
     hasBin: true
     dev: false
     bundledDependencies:
@@ -4246,6 +4246,7 @@ packages:
       - '@npmcli/package-json'
       - '@npmcli/promise-spawn'
       - '@npmcli/run-script'
+      - '@sigstore/tuf'
       - abbrev
       - archy
       - cacache
@@ -4297,9 +4298,9 @@ packages:
       - qrcode-terminal
       - read
       - semver
-      - sigstore
       - spdx-expression-parse
       - ssri
+      - strip-ansi
       - supports-color
       - tar
       - text-table
@@ -6004,8 +6005,8 @@ packages:
       yargs-parser: 20.2.4
     dev: true
 
-  /yarn@1.22.19:
-    resolution: {integrity: sha512-/0V5q0WbslqnwP91tirOvldvYISzaqhClxzyUKXYxs07yUILIs5jx/k6CFe8bvKSkds5w+eiOqta39Wk3WxdcQ==}
+  /yarn@1.22.21:
+    resolution: {integrity: sha512-ynXaJsADJ9JiZ84zU25XkPGOvVMmZ5b7tmTSpKURYwgELdjucAOydqIOrOfTxVYcNXe91xvLZwcRh68SR3liCg==}
     engines: {node: '>=4.0.0'}
     hasBin: true
     requiresBuild: true
